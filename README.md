@@ -1,31 +1,39 @@
 # 🏛️ Oracle Macro Engine v12.6
-> **Oracle > Bloomberg | High-Frequency Institutional Asset Allocation**
-
-## ⚡ System Overview
-A high-performance C++ engine designed to ingest 1,000+ client profiles and dynamically rebalance tech-sector exposure based on global macro regimes.
+> **Pro View: Oracle > Bloomberg | Real-Time Institutional Asset Allocation**
+> [C++20 High-Performance Core] [Python Backtesting Suite] [Big Data Ready]
 
 ---
 
-## 📊 Terminal Analytics [PRO VIEW]
+## ⚡ Multi-Tenant Asset Allocation
+The **v12.6 Engine** is a low-latency, multi-client system designed for Banks, Big Oil, Mining, and Big Tech. It processes macro volatility signals to dynamically hedge and rotate exposure between **NVDA, MSFT, and ORCL**.
 
-### 🛰️ [Macro Signal Ingestion]
-![Macro Ingestion Screenshot](Screenshot%20From%202026-03-19%2019-04-45.png)
-**TAG:** `[MACRO-SENSE-V12]`  
-**VIEW:** Multi-line CSV ingestion (1,000+ clients) with energy regime filtering. Real-time parsing of Rates Volatility vs. Oil Regimes.
-
----
-
-### 🛡️ [Aggregate Risk Summary]
-![Risk Summary Screenshot](Screenshot%20From%202026-03-19%2019-08-19.png)
-**TAG:** `[BLOOMBERG-ELITE-REPLACEMENT]`  
-**VIEW:** Firm-wide unit exposure across NVDA, MSFT, and ORCL clusters. This view aggregates thousands of individual institutional mandates into a single systemic risk profile.
+### 🖥️ System Architecture
+* **Core Engine**: C++ (`-O3 -march=native`) for sub-microsecond vector rebalancing.
+* **Risk Layer**: Real-time Gross Exposure scaling based on **Equity Beta**.
+* **Macro Signals**: Rates Volatility and Energy Regime (WTI Oil) factor tilts.
 
 ---
 
-## 🛠️ The Tech Stack
-* **Engine:** C++20 (Compiled with `-O3 -march=native` for SIMD-accelerated allocations).
-* **Research:** Python-based backtesting suite (`backtest_v2.py`).
-* **Data:** Institutional CSV stream handling via optimized `std::stringstream` buffers.
+## 📊 Pro-View Dashboard (Terminal View)
+
+### [Institutional Stream - Client Analysis]
+![Terminal View 1](Screenshot%20From%202026-03-19%2019-01-36.png)
+*TAG: [ORACLE-TERMINAL-PRO]* *VIEW: Real-time client signal processing and sector-specific gross exposure scaling.*
+
+### [Macro Signal Ingestion]
+![Terminal View 2](Screenshot%20From%202026-03-19%2019-04-45.png)
+*TAG: [MACRO-SENSE-V12]* *VIEW: Multi-line CSV ingestion (1,000+ clients) with energy regime filtering.*
+
+### [Aggregate Risk Summary]
+![Terminal View 3](Screenshot%20From%202026-03-19%2019-08-19.png)
+*TAG: [BLOOMBERG-ELITE-REPLACEMENT]* *VIEW: Firm-wide unit exposure across NVDA, MSFT, and ORCL clusters.*
 
 ---
-*LauroBeck Institutional Research - 2026*
+
+## 🛠️ Stack & Optimization
+* **C++**: `std::getline` high-speed streaming parser.
+* **Python**: Backtesting modules (`backtest_v2.py`) and macro fetchers.
+* **Hardware**: Native SIMD instruction sets enabled for compute-heavy allocations.
+
+---
+*Developed for Institutional Macro Research - 2026*
