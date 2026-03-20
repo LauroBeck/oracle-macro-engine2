@@ -1,36 +1,37 @@
 # 🏛️ Oracle Macro Engine v12.6
-> **Oracle > Bloomberg | High-Frequency Institutional Asset Allocation**
+> **[ORACLE-PRO] [PYTHON-BACKTEST] [BLOOMBERG-ELITE] [MSFT-AZURE-SCALE]**
 
 ---
 
-## 🛰️ [MACRO-SENSE-V12] | Signal Ingestion
+## 🛰️ [MACRO-SENSE-V12] | Oracle Signal Ingestion
 ![Macro Ingestion](macro_ingestion.png)
-*View: Multi-line CSV ingestion with energy regime filtering.*
+**VIEW:** Institutional 1,000+ client line parsing via C++. Native data streaming for high-frequency macro adjustment.
 
 ---
 
 ## 🛡️ [BLOOMBERG-ELITE-REPLACEMENT] | Risk Summary
 ![Risk Summary](risk_summary.png)
-*View: Firm-wide unit exposure across NVDA, MSFT, and ORCL clusters.*
+**VIEW:** Real-time firm-wide exposure aggregation across tech-heavy clusters. Replaces traditional terminal latency with native C++ execution.
 
 ---
 
-## ⚙️ [NATIVE-SIMD-ACCELERATION] | Core Build
+## 🧪 [PYTHON-ALPHA-VERIFIED] | Research & Backtest
+![Backtest View](backtest_v2.png)
+**VIEW:** Python-driven validation layer for testing allocation strategies against historical volatility. Bridging the gap between research and production.
+
+---
+
+## ⚙️ [MICROSOFT-CORE-OPTIMIZED] | Cloud-Scale Build
 ![Core Build](core_build.png)
-*View: Optimized C++ binary compilation.*
+**VIEW:** Optimized for Azure-scale deployments using `-O3` native instruction sets for maximum throughput.
 
 ---
 
-## 🧪 [ALPHA-VERIFIED-V2] | Backtest & Validation
-![Backtest](backtest_v2.png)
-*View: Validation of allocation logic against volatility spikes.*
-
----
-
-## 🛠️ The Tech Stack
-* **C++ Engine:** Native optimized build.
-* **Python Layer:** Backtesting suite.
-* **Architecture:** Oracle Cloud / Ubuntu / SIMD.
+## 🛠️ Stack Summary
+* **Engine:** C++20 (Native Performance Core)
+* **Intelligence:** Python (Research & Alpha Generation)
+* **Standard:** Oracle/Bloomberg Institutional Grade
+* **Infrastructure:** Microsoft/Linux Scalable Clusters
 
 ---
 *LauroBeck Institutional Research - 2026*
